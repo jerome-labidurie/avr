@@ -1,0 +1,4 @@
+# udev rule for V-USB devices
+# VOTI shared ID for use with libusb
+ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", MODE="0660", GROUP="plugdev"
+
