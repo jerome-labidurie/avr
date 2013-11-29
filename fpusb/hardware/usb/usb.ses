@@ -1,0 +1,409 @@
+
+(session usb.ses
+  (base_design usb.dsn)
+  (placement
+    (resolution mil 10)
+    (component USB_B
+      (place J1 5000 -10000 front 270)
+    )
+    (component R3
+      (place R7 13000 -6500 front 180)
+      (place R6 13000 -14500 front 180)
+      (place R5 13000 -7500 front 0)
+      (place R4 13000 -15500 front 0)
+      (place R3 10500 -7500 front 270)
+      (place R1 8500 -10000 front 90)
+      (place R2 10500 -11500 front 90)
+    )
+    (component "LED-3MM"
+      (place D3 16000 -16000 front 0)
+      (place D4 16000 -6000 front 0)
+    )
+    (component "DIP-8__300"
+      (place IC1 13000 -11000 front 90)
+    )
+    (component "DIP-6__300"
+      (place U2 17000 -9000 front 270)
+      (place U1 17000 -13000 front 270)
+    )
+    (component D4
+      (place D6 22000 -10500 front 180)
+      (place D5 22000 -14000 front 0)
+    )
+    (component D3
+      (place D2 9500 -11500 front 90)
+      (place D1 9500 -7500 front 270)
+    )
+    (component C1
+      (place C2 7000 -13500 front 0)
+      (place C1 7000 -14500 front 180)
+    )
+    (component bornier2
+      (place P2 22500 -8000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(2012-apr-16-27)-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Dessus 350 0 0)
+        )
+        (shape
+          (circle Dessous 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Dessus 350 0 0)
+        )
+        (shape
+          (circle Dessous 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net +5V
+        (wire
+          (path Dessous 80
+            7500 -14000
+            10305 -14000
+            11500 -12805
+            11500 -12500
+          )
+        )
+        (wire
+          (path Dessous 80
+            7500 -14000
+            7500 -13500
+          )
+        )
+        (wire
+          (path Dessous 80
+            7500 -14500
+            7500 -14000
+          )
+        )
+        (wire
+          (path Dessous 80
+            8500 -8500
+            8500 -8850
+            6850 -10500
+          )
+        )
+        (wire
+          (path Dessous 80
+            7500 -13500
+            7500 -11150
+            6850 -10500
+          )
+        )
+      )
+      (net /Cmd+
+        (wire
+          (path Dessous 80
+            14500 -11500
+            11500 -14500
+          )
+        )
+        (wire
+          (path Dessous 80
+            11500 -15500
+            11500 -14500
+          )
+        )
+      )
+      (net "/Cmd-"
+        (wire
+          (path Dessous 80
+            11500 -7500
+            11500 -6500
+          )
+        )
+        (wire
+          (path Dessous 80
+            14500 -10500
+            11500 -7500
+          )
+        )
+      )
+      (net /D+
+        (wire
+          (path Dessous 80
+            10500 -9000
+            11677 -9000
+            12081 -9404
+            12081 -10919
+            11500 -11500
+          )
+        )
+      )
+      (net "/D-"
+        (wire
+          (path Dessous 80
+            11500 -9500
+            11000 -9500
+            10500 -10000
+          )
+        )
+      )
+      (net /FilPilote
+        (wire
+          (path Dessous 80
+            24000 -10500
+            24000 -14000
+          )
+        )
+        (wire
+          (path Dessous 80
+            23500 -8000
+            23500 -10000
+            24000 -10500
+          )
+        )
+      )
+      (net /Phase
+        (wire
+          (path Dessous 80
+            18500 -8000
+            17997 -8503
+            17997 -11497
+            18500 -12000
+          )
+        )
+        (wire
+          (path Dessous 80
+            21500 -8000
+            18500 -8000
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path Dessous 80
+            11924 -12088
+            11902 -12066
+            10434 -12066
+          )
+        )
+        (wire
+          (path Dessous 80
+            6500 -14500
+            7296 -15296
+            9297 -15296
+            11924 -12669
+            11924 -12088
+          )
+        )
+        (wire
+          (path Dessous 80
+            11924 -12088
+            13012 -11000
+            14831 -11000
+            15081 -10750
+          )
+        )
+        (wire
+          (path Dessous 80
+            15081 -10750
+            15081 -9831
+            14875 -9625
+          )
+        )
+        (wire
+          (path Dessous 80
+            15500 -13000
+            15919 -12581
+            15919 -11588
+            15081 -10750
+          )
+        )
+        (wire
+          (path Dessous 80
+            10434 -12066
+            9500 -13000
+          )
+        )
+        (wire
+          (path Dessous 80
+            9500 -6000
+            10071 -6571
+            10071 -11703
+            10434 -12066
+          )
+        )
+        (wire
+          (path Dessous 80
+            6500 -13500
+            6500 -14500
+          )
+        )
+        (wire
+          (path Dessous 80
+            14875 -9625
+            15500 -9000
+          )
+        )
+        (wire
+          (path Dessous 80
+            14500 -9500
+            14625 -9625
+            14875 -9625
+          )
+        )
+        (wire
+          (path Dessous 80
+            15500 -13000
+            16500 -14000
+            16500 -16000
+          )
+        )
+        (wire
+          (path Dessous 80
+            15500 -9000
+            16500 -8000
+            16500 -6000
+          )
+        )
+        (wire
+          (path Dessous 80
+            6500 -13500
+            6500 -10937
+            6063 -10500
+          )
+        )
+      )
+      (net "N-000002"
+        (wire
+          (path Dessous 80
+            15500 -12000
+            15500 -12418
+          )
+        )
+        (wire
+          (path Dessous 80
+            15500 -12418
+            15104 -12418
+            15082 -12440
+            15082 -13918
+            14500 -14500
+          )
+        )
+      )
+      (net "N-000003"
+        (wire
+          (path Dessous 80
+            20000 -14000
+            18500 -14000
+          )
+        )
+      )
+      (net "N-000008"
+        (wire
+          (path Dessous 80
+            15500 -16000
+            15000 -16000
+            14500 -15500
+          )
+        )
+      )
+      (net "N-000009"
+        (wire
+          (path Dessous 80
+            15500 -8000
+            15500 -7500
+            14500 -6500
+          )
+        )
+      )
+      (net "N-000010"
+        (wire
+          (path Dessous 80
+            15500 -6000
+            14100 -6000
+            14078 -6022
+            14078 -7078
+            14500 -7500
+          )
+        )
+      )
+      (net "N-000011"
+        (wire
+          (path Dessous 80
+            20000 -10500
+            19000 -10500
+            18500 -10000
+          )
+        )
+      )
+      (net "N-000013"
+        (wire
+          (path Dessous 80
+            9500 -10000
+            9500 -9582
+          )
+        )
+        (wire
+          (path Dessous 80
+            9500 -9582
+            9104 -9582
+            9082 -9560
+            9082 -8258
+            8904 -8080
+            8270 -8080
+            6850 -9500
+          )
+        )
+        (wire
+          (path Dessous 80
+            8500 -11500
+            9500 -10500
+            9500 -10000
+          )
+        )
+        (wire
+          (path Dessous 80
+            10500 -13000
+            10000 -13500
+            9403 -13500
+            8500 -12597
+            8500 -11500
+          )
+        )
+      )
+      (net "N-000018"
+        (wire
+          (path Dessous 80
+            9080 -7896
+            7667 -7896
+            6063 -9500
+          )
+        )
+        (wire
+          (path Dessous 80
+            9500 -9000
+            9500 -8316
+            9080 -7896
+          )
+        )
+        (wire
+          (path Dessous 80
+            10500 -6000
+            10071 -5571
+            9102 -5571
+            9080 -5593
+            9080 -7896
+          )
+        )
+      )
+    )
+  )
+)

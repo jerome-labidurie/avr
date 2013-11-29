@@ -1,0 +1,305 @@
+(pcb /home/jjl/data/Partage/Electronique/FilPilote/usb/usb.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2012-apr-16-27)-stable")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Dessus
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Dessous
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 79.9 -463.3 2472.1 -1726.7)
+    )
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 8)
+      (clearance 10.1)
+      (clearance 10.1 (type default_smd))
+      (clearance 2.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component USB_B
+      (place J1 500 -1000 front 270 (PN USB_2))
+    )
+    (component R3
+      (place R7 1300 -650 front 180 (PN 330))
+      (place R6 1300 -1450 front 180 (PN 330))
+      (place R5 1300 -750 front 0 (PN 330))
+      (place R4 1300 -1550 front 0 (PN 330))
+      (place R3 1050 -750 front 270 (PN 68))
+      (place R1 850 -1000 front 90 (PN 1K5))
+      (place R2 1050 -1150 front 90 (PN 68))
+    )
+    (component "LED-3MM"
+      (place D3 1600 -1600 front 0 (PN LED))
+      (place D4 1600 -600 front 0 (PN LED))
+    )
+    (component "DIP-8__300"
+      (place IC1 1300 -1100 front 90 (PN "ATTINY45-P"))
+    )
+    (component "DIP-6__300"
+      (place U2 1700 -900 front 270 (PN MOC3041))
+      (place U1 1700 -1300 front 270 (PN MOC3041))
+    )
+    (component D4
+      (place D6 2200 -1050 front 180 (PN 1N4007))
+      (place D5 2200 -1400 front 0 (PN 1N4007))
+    )
+    (component D3
+      (place D2 950 -1150 front 90 (PN 3.6V))
+      (place D1 950 -750 front 270 (PN 3.6V))
+    )
+    (component C1
+      (place C2 700 -1350 front 0 (PN 100n))
+      (place C1 700 -1450 front 180 (PN 10u))
+    )
+    (component bornier2
+      (place P2 2250 -800 front 0 (PN CONN_2))
+    )
+  )
+  (library
+    (image USB_B
+      (outline (path signal 5  -240 -405  240 -405))
+      (outline (path signal 5  240 -405  240 265))
+      (outline (path signal 5  240 265  -240 265))
+      (outline (path signal 5  -240 265  -240 -405))
+      (pin Round[A]Pad_60_mil 1 50 185)
+      (pin Round[A]Pad_60_mil 2 -50 185)
+      (pin Round[A]Pad_60_mil 3 -50 106.3)
+      (pin Round[A]Pad_60_mil 4 50 106.3)
+      (pin Round[A]Pad_106.3_mil 5 236.2 0)
+      (pin Round[A]Pad_106.3_mil 6 -236.2 0)
+    )
+    (image R3
+      (outline (path signal 8  -150 0  -130 0))
+      (outline (path signal 8  150 0  130 0))
+      (outline (path signal 8  130 0  130 40))
+      (outline (path signal 8  130 40  -130 40))
+      (outline (path signal 8  -130 40  -130 -40))
+      (outline (path signal 8  -130 -40  130 -40))
+      (outline (path signal 8  130 -40  130 0))
+      (outline (path signal 8  -130 20  -110 40))
+      (pin Round[A]Pad_55_mil 1 -150 0)
+      (pin Round[A]Pad_55_mil 2 150 0)
+    )
+    (image "LED-3MM"
+      (outline (path signal 10  72 -50  72 50))
+      (pin Round[A]Pad_66_mil 1 -50 0)
+      (pin Round[A]Pad_66_mil 2 50 0)
+    )
+    (image "DIP-8__300"
+      (outline (path signal 10  -200 50  -150 50))
+      (outline (path signal 10  -150 50  -150 -50))
+      (outline (path signal 10  -150 -50  -200 -50))
+      (outline (path signal 10  -200 100  200 100))
+      (outline (path signal 10  200 100  200 -100))
+      (outline (path signal 10  200 -100  -200 -100))
+      (outline (path signal 10  -200 -100  -200 100))
+      (pin Rect[A]Pad_55x55_mil 1 -150 -150)
+      (pin Round[A]Pad_55_mil 2 -50 -150)
+      (pin Round[A]Pad_55_mil 3 50 -150)
+      (pin Round[A]Pad_55_mil 4 150 -150)
+      (pin Round[A]Pad_55_mil 5 150 150)
+      (pin Round[A]Pad_55_mil 6 50 150)
+      (pin Round[A]Pad_55_mil 7 -50 150)
+      (pin Round[A]Pad_55_mil 8 -150 150)
+    )
+    (image "DIP-6__300"
+      (outline (path signal 15  -175 100  175 100))
+      (outline (path signal 15  175 100  175 -100))
+      (outline (path signal 15  175 -100  -175 -100))
+      (outline (path signal 15  -175 -100  -175 100))
+      (outline (path signal 15  -175 25  -125 25))
+      (outline (path signal 15  -125 25  -125 -25))
+      (outline (path signal 15  -125 -25  -175 -25))
+      (pin Rect[A]Pad_55x55_mil 1 -100 -150)
+      (pin Round[A]Pad_55_mil 2 0 -150)
+      (pin Round[A]Pad_55_mil 3 100 -150)
+      (pin Round[A]Pad_55_mil 4 100 150)
+      (pin Round[A]Pad_55_mil 5 0 150)
+      (pin Round[A]Pad_55_mil 6 -100 150)
+    )
+    (image D4
+      (outline (path signal 12  -150 50  150 50))
+      (outline (path signal 12  150 50  150 -50))
+      (outline (path signal 12  150 -50  -150 -50))
+      (outline (path signal 12  -150 -50  -150 50))
+      (outline (path signal 12  125 50  125 -50))
+      (outline (path signal 12  100 -50  100 50))
+      (outline (path signal 12  -150 0  -200 0))
+      (outline (path signal 12  150 0  200 0))
+      (pin Round[A]Pad_70_mil 1 -200 0)
+      (pin Rect[A]Pad_70x70_mil 2 200 0)
+    )
+    (image D3
+      (outline (path signal 12  150 0  120 0))
+      (outline (path signal 12  120 0  120 40))
+      (outline (path signal 12  120 40  -120 40))
+      (outline (path signal 12  -120 40  -120 0))
+      (outline (path signal 12  -120 0  -150 0))
+      (outline (path signal 12  -120 0  -120 -40))
+      (outline (path signal 12  -120 -40  120 -40))
+      (outline (path signal 12  120 -40  120 0))
+      (outline (path signal 12  100 40  100 -40))
+      (outline (path signal 12  90 -40  90 40))
+      (pin Rect[A]Pad_55x55_mil 2 150 0)
+      (pin Round[A]Pad_55_mil 1 -150 0)
+    )
+    (image C1
+      (outline (path signal 12  -98 50  100 50))
+      (outline (path signal 12  100 50  100 -50))
+      (outline (path signal 12  100 -50  -100 -50))
+      (outline (path signal 12  -100 -50  -100 50))
+      (outline (path signal 12  -100 25  -75 50))
+      (pin Round[A]Pad_55_mil 1 -50 0)
+      (pin Round[A]Pad_55_mil 2 50 0)
+    )
+    (image bornier2
+      (outline (path signal 12  200 -100  -200 -100))
+      (outline (path signal 12  200 -150  200 150))
+      (outline (path signal 12  200 150  -200 150))
+      (outline (path signal 12  -200 150  -200 -150))
+      (outline (path signal 12  -200 -150  200 -150))
+      (pin Rect[A]Pad_100x100_mil 1 -100 0)
+      (pin Round[A]Pad_100_mil 2 100 0)
+    )
+    (padstack Round[A]Pad_100_mil
+      (shape (circle Dessus 100))
+      (shape (circle Dessous 100))
+      (attach off)
+    )
+    (padstack Round[A]Pad_106.3_mil
+      (shape (circle Dessus 106.3))
+      (shape (circle Dessous 106.3))
+      (attach off)
+    )
+    (padstack Round[A]Pad_55_mil
+      (shape (circle Dessus 55))
+      (shape (circle Dessous 55))
+      (attach off)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Dessus 60))
+      (shape (circle Dessous 60))
+      (attach off)
+    )
+    (padstack Round[A]Pad_66_mil
+      (shape (circle Dessus 66))
+      (shape (circle Dessous 66))
+      (attach off)
+    )
+    (padstack Round[A]Pad_70_mil
+      (shape (circle Dessus 70))
+      (shape (circle Dessous 70))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_55x55_mil
+      (shape (rect Dessus -27.5 -27.5 27.5 27.5))
+      (shape (rect Dessous -27.5 -27.5 27.5 27.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_70x70_mil
+      (shape (rect Dessus -35 -35 35 35))
+      (shape (rect Dessous -35 -35 35 35))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_100x100_mil
+      (shape (rect Dessus -50 -50 50 50))
+      (shape (rect Dessous -50 -50 50 50))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Dessus 35))
+      (shape (circle Dessous 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Dessus 35))
+      (shape (circle Dessous 35))
+      (attach off)
+    )
+  )
+  (network
+    (net +5V
+      (pins J1-1 R1-2 IC1-8 C2-2 C1-1)
+    )
+    (net //RESET
+      (pins IC1-1)
+    )
+    (net /Cmd+
+      (pins R6-2 R4-1 IC1-2)
+    )
+    (net "/Cmd-"
+      (pins R7-2 R5-1 IC1-3)
+    )
+    (net /D+
+      (pins R3-2 IC1-7)
+    )
+    (net "/D-"
+      (pins R2-2 IC1-5)
+    )
+    (net /FilPilote
+      (pins D6-1 D5-2 P2-2)
+    )
+    (net /MISO
+      (pins IC1-6)
+    )
+    (net /Phase
+      (pins U2-6 U1-6 P2-1)
+    )
+    (net GND
+      (pins J1-4 D3-2 D4-2 IC1-4 U2-2 U1-2 D2-1 D1-1 C2-1 C1-2)
+    )
+    (net "N-000002"
+      (pins R6-1 U1-1)
+    )
+    (net "N-000003"
+      (pins U1-4 D5-1)
+    )
+    (net "N-000008"
+      (pins R4-2 D3-1)
+    )
+    (net "N-000009"
+      (pins R7-1 U2-1)
+    )
+    (net "N-000010"
+      (pins R5-2 D4-1)
+    )
+    (net "N-000011"
+      (pins U2-4 D6-2)
+    )
+    (net "N-000013"
+      (pins J1-2 R1-1 R2-1 D2-2)
+    )
+    (net "N-000018"
+      (pins J1-3 R3-1 D1-2)
+    )
+    (class kicad_default "" +5V //RESET /Cmd+ "/Cmd-" /D+ "/D-" /FilPilote
+      /MISO /Phase GND "N-000002" "N-000003" "N-000008" "N-000009" "N-000010"
+      "N-000011" "N-000013" "N-000018"
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 8)
+        (clearance 10.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

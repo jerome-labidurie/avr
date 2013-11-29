@@ -1,0 +1,51 @@
+eeschema (2012-apr-16-27)-stable  >> Creation date: jeu. 27 déc. 2012 23:47:32 CET
+
+#Cmp ( ordre = Référence )
+| C1         10u         
+| C2         100n        
+| D1         3.6V        
+| D2         3.6V        
+| D3         LED         
+| D4         LED         
+| D5         1N4007      
+| D6         1N4007      
+| IC1        ATTINY45-P  
+| J1         USB_2       
+| P1         ISP         
+| P2         CONN_2      
+| R1         1K5         
+| R2         68          
+| R3         68          
+| R4         330         
+| R5         330         
+| R6         330         
+| R7         330         
+| U1         MOC3041     
+| U2         MOC3041     
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| 100n         C2        
+| 10u          C1        
+| 1K5          R1        
+| 1N4007       D5        
+| 1N4007       D6        
+| 3.6V         D1        
+| 3.6V         D2        
+| 330          R4        
+| 330          R5        
+| 330          R6        
+| 330          R7        
+| 68           R2        
+| 68           R3        
+| ATTINY45-P   IC1       
+| CONN_2       P2        
+| ISP          P1        
+| LED          D3        
+| LED          D4        
+| MOC3041      U1        
+| MOC3041      U2        
+| USB_2        J1        
+#End Cmp
+
+#End List

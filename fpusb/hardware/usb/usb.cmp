@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = jeu. 27 déc. 2012 23:59:02 CET
+
+BeginCmp
+TimeStamp = /4EEDD7F2;
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD810;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD80D;
+Reference = D1;
+ValeurCmp = 3.6V;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD80C;
+Reference = D2;
+ValeurCmp = 3.6V;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD817;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD814;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD81B;
+Reference = D5;
+ValeurCmp = 1N4007;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD81E;
+Reference = D6;
+ValeurCmp = 1N4007;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD956;
+Reference = IC1;
+ValeurCmp = ATTINY45-P;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD811;
+Reference = J1;
+ValeurCmp = USB_2;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD7F1;
+Reference = P1;
+ValeurCmp = ISP;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDE79C;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD7F3;
+Reference = R1;
+ValeurCmp = 1K5;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD80F;
+Reference = R2;
+ValeurCmp = 68;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD80E;
+Reference = R3;
+ValeurCmp = 68;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD818;
+Reference = R4;
+ValeurCmp = 330;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD813;
+Reference = R5;
+ValeurCmp = 330;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD81C;
+Reference = R6;
+ValeurCmp = 330;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD81D;
+Reference = R7;
+ValeurCmp = 330;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD81A;
+Reference = U1;
+ValeurCmp = MOC3041;
+IdModule  = DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEDD81F;
+Reference = U2;
+ValeurCmp = MOC3041;
+IdModule  = DIP-6__300;
+EndCmp
+
+EndListe
