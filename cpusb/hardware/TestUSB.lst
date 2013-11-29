@@ -1,0 +1,63 @@
+eeschema (2011-05-25)-stable  >> Creation date: dim. 18 déc. 2011 14:43:10 CET
+
+#Cmp ( ordre = Référence )
+| C1         10u         
+| C2         100n        
+| D1         3.6V        
+| D2         3.6V        
+| D3         LED         
+| D4         LED         
+| D5         LED         
+| D6         LED         
+| D7         LED         
+| D8         LED         
+| D9         LED         
+| D10        LED         
+| J1         USB_2       
+| P1         ISP         
+| R1         1K5         
+| R2         68          
+| R3         68          
+| R4         R           
+| R5         330         
+| R6         330         
+| R7         330         
+| R8         330         
+| R9         330         
+| R10        330         
+| R11        330         
+| R12        330         
+| U1         ATTINY25-45-85/DIP-SO
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| 100n         C2        
+| 10u          C1        
+| 1K5          R1        
+| 3.6V         D1        
+| 3.6V         D2        
+| 330          R5        
+| 330          R6        
+| 330          R7        
+| 330          R8        
+| 330          R9        
+| 330          R10       
+| 330          R11       
+| 330          R12       
+| 68           R2        
+| 68           R3        
+| ATTINY25-45-85/DIP-SO U1        
+| ISP          P1        
+| LED          D3        
+| LED          D4        
+| LED          D5        
+| LED          D6        
+| LED          D7        
+| LED          D8        
+| LED          D9        
+| LED          D10       
+| R            R4        
+| USB_2        J1        
+#End Cmp
+
+#End List

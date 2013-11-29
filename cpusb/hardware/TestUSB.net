@@ -1,0 +1,364 @@
+# EESchema Netlist Version 1.1 created  dim. 18 déc. 2011 15:09:15 CET
+(
+ ( /4E5CC95E $noname  P1 ISP {Lib=CONN_3X2}
+  (    1 /DATA )
+  (    2 +5V )
+  (    3 /D+ )
+  (    4 /D- )
+  (    5 //RESET )
+  (    6 GND )
+ )
+ ( /4E5C164E $noname  C1 10u {Lib=CP1}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /4E5C159E $noname  R1 1K5 {Lib=R}
+  (    1 N-000019 )
+  (    2 +5V )
+ )
+ ( /4E5C13BB $noname  R4 R {Lib=R}
+  (    1 N-000013 )
+  (    2 +5V )
+ )
+ ( /4E5C1347 $noname  R10 330 {Lib=R}
+  (    1 N-000017 )
+  (    2 N-000018 )
+ )
+ ( /4E5C1346 $noname  D8 LED {Lib=LED}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /4E5C1345 $noname  D7 LED {Lib=LED}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /4E5C1344 $noname  R9 330 {Lib=R}
+  (    1 N-000002 )
+  (    2 N-000003 )
+ )
+ ( /4E5C1343 $noname  R11 330 {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000005 )
+ )
+ ( /4E5C1342 $noname  D9 LED {Lib=LED}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /4E5C1341 $noname  D10 LED {Lib=LED}
+  (    1 N-000006 )
+  (    2 GND )
+ )
+ ( /4E5C1340 $noname  R12 330 {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000001 )
+ )
+ ( /4E5C133A $noname  R8 330 {Lib=R}
+  (    1 N-000007 )
+  (    2 N-000008 )
+ )
+ ( /4E5C1339 $noname  D6 LED {Lib=LED}
+  (    1 N-000007 )
+  (    2 GND )
+ )
+ ( /4E5C1338 $noname  D5 LED {Lib=LED}
+  (    1 N-000009 )
+  (    2 GND )
+ )
+ ( /4E5C1337 $noname  R7 330 {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000010 )
+ )
+ ( /4E5C132D $noname  R5 330 {Lib=R}
+  (    1 N-000011 )
+  (    2 N-000012 )
+ )
+ ( /4E5C132C $noname  D3 LED {Lib=LED}
+  (    1 N-000011 )
+  (    2 GND )
+ )
+ ( /4E5C12F0 $noname  D4 LED {Lib=LED}
+  (    1 N-000024 )
+  (    2 GND )
+ )
+ ( /4E5C12B7 $noname  R6 330 {Lib=R}
+  (    1 N-000024 )
+  (    2 N-000025 )
+ )
+ ( /4E5C121A $noname  D2 3.6V {Lib=ZENER}
+  (    1 GND )
+  (    2 /D- )
+ )
+ ( /4E5C120C $noname  D1 3.6V {Lib=ZENER}
+  (    1 GND )
+  (    2 /D+ )
+ )
+ ( /4E5C11B6 $noname  R3 68 {Lib=R}
+  (    1 N-000021 )
+  (    2 /D+ )
+ )
+ ( /4E5C11B1 $noname  R2 68 {Lib=R}
+  (    1 N-000019 )
+  (    2 /D- )
+ )
+ ( /4E5C116F $noname  C2 100n {Lib=C}
+  (    1 GND )
+  (    2 +5V )
+ )
+ ( /4E5C1119 $noname  J1 USB_2 {Lib=USB_2}
+  (    1 +5V )
+  (    2 N-000019 )
+  (    3 N-000021 )
+  (    4 GND )
+ )
+ ( /4E5C1103 $noname  U1 ATTINY25-45-85/DIP-SO {Lib=ATTINY25-45-85/DIP-SO}
+  (    1 //RESET )
+  (    2 /STROBE )
+  (    3 /CP )
+  (    4 GND )
+  (    5 /D- )
+  (    6 /DATA )
+  (    7 /D+ )
+  (    8 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D9
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D10
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component D1
+ D?
+ SO*
+ SM*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "" ""
+ D7 1
+ R9 1
+Net 4 "" ""
+ R11 1
+ D9 1
+Net 6 "" ""
+ D10 1
+ R12 1
+Net 7 "" ""
+ R8 1
+ D6 1
+Net 9 "" ""
+ R7 1
+ D5 1
+Net 11 "" ""
+ D3 1
+ R5 1
+Net 14 "+5V" "+5V"
+ P1 2
+ C2 2
+ J1 1
+ U1 8
+ C1 1
+ R1 2
+ R4 2
+Net 17 "" ""
+ R10 1
+ D8 1
+Net 19 "" ""
+ R1 1
+ R2 1
+ J1 2
+Net 20 "/D+" "D+"
+ P1 3
+ D1 2
+ U1 7
+ R3 2
+Net 21 "" ""
+ R3 1
+ J1 3
+Net 22 "GND" "GND"
+ P1 6
+ D1 1
+ C2 1
+ D2 1
+ J1 4
+ U1 4
+ D5 2
+ D6 2
+ D8 2
+ D10 2
+ D9 2
+ D7 2
+ D4 2
+ D3 2
+ C1 2
+Net 23 "//RESET" "/RESET"
+ U1 1
+ P1 5
+Net 24 "" ""
+ R6 1
+ D4 1
+Net 28 "/DATA" "DATA"
+ P1 1
+ U1 6
+Net 29 "/D-" "D-"
+ D2 2
+ P1 4
+ U1 5
+ R2 2
+}
+#End
