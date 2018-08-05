@@ -36,7 +36,7 @@ encoding utf-8
 Sheet 1 1
 Title "ATtiny USB Board"
 Date "2018-08-05"
-Rev "v1"
+Rev "1.0"
 Comp "JJL"
 Comment1 "GPLv3"
 Comment2 ""
