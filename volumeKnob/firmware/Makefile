@@ -10,7 +10,8 @@ LDFLAGS=-mmcu=$(MCU) -lm -Wl,--gc-sections -Os -DF_CPU=$(F_CPU)
 # PGMERARD=-c arduino -b 115200 -P /dev/ttyUSB0
 PGMERISP=-c avrisp  -b 19200 -P /dev/ttyUSB0
 STK500=-c stk500  -P /dev/ttyUSB0
-PGMER=$(PGMERISP)
+#PGMER=$(PGMERISP)
+PGMER=$(STK500)
 DUDE=/usr/bin/avrdude -V -p t45
 
 # if avr slow clock is defined (128KHz/8)

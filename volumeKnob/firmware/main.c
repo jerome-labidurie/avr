@@ -122,7 +122,9 @@ uint8_t	usbFunctionSetup(uint8_t data[8])
 
 void    hadUsbReset(void)
 {
+	cli();
 	calibrateOscillator();
+	sei();
 	eeprom_write_byte(0, OSCCAL);   /* store the calibrated value in EEPROM byte 0*/
 }
 
